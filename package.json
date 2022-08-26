@@ -1,6 +1,6 @@
 {
-    "name": "MyWA Bot",
-    "version": "1.0.5",
+    "name": "Wabot JS",
+    "version": "1.0.1",
     "description": "Multiple bot whatsapp automatic all in one",
     "main": "index.js",
     "type": "module",
@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/amiruldev20/mywabot",
+    "homepage": "https://github.com/amiruldev20/wabotjs",
     "author": {
         "name": "amiruldev20"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/amiruldev20/mywabot.git"
+        "url": "git+https://github.com/amiruldev20/wabotjs.git"
     },
     "bugs": {
-        "url": "https://github.com/amiruldev20/mywabot/issues"
+        "url": "https://github.com/amiruldev20/wabotjs/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

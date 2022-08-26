@@ -46,3 +46,7 @@ node . session_name --opts
 2. If you find an error you can create an issue on this repo, don't ask me on whatsapp it's very annoying.
 
 <p align="center"><img src="https://profile-counter.glitch.me/{amiruldev20}/count.svg" alt="neoxr :: Visitor's Count" /></p>
+
+#### Developer
+[![Amirul Dev](https://github.com/amiruldev20.png?size=100)](https://github.com/amiruldev20)
+[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)

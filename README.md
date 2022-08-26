@@ -49,4 +49,4 @@ node . session_name --opts
 
 #### Developer
 [![Amirul Dev](https://github.com/amiruldev20.png?size=100)](https://github.com/amiruldev20)
-[![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
+[![Nadia Cans](https://github.com/scoder37.png?size=100)](https://github.com/)

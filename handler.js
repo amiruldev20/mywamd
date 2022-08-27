@@ -635,38 +635,11 @@ if (!set.opts['noprint']) await (await import(`./lib/print.js`)).default(m, this
 console.log(m, m.quoted, e)
 }
 if (set.opts['autoreadsw']) {
-await this.sendPresenceUpdate("unavailable", m.chat)
-if (m.chat.endsWith("g.us")) return console.log("UNREAD GC")
-if (m.chat.endsWith("s.whatsapp.net")) return console.log("UNREAD PC")
-
-//await this.chatRead("status@broadcast", m.key.participant, m.id || m.key.id).catch(() => {})
-await this.chatRead("status@broadcast", m.key.participant, m.id)
-
-this.sendMessage(`${global.o1}@s.whatsapp.net`, {
-text: `*SAVE BACK BOS*
-NI ANAK NGESAVE ENTE
-
-${m.name} • @${m.sender.split("@")[0]}
-participan: ${m.key.participant}
-id: ${m.id} / ${m.key.id}
-chat: ${m.chat}
-
-${util.format(m.message)}
-
-${util.format(m.message.imageMessage)}
-
-${util.format(m.message.videoMessage)}`,
-mentions: [m.sender]
-})
-/*
-this.sendMessage(`${global.o1}@s.whatsapp.net`, {
-text: `@${m.sender.split("@")[0]}`,
-mentions: [m.sender],
-})
-*/
+this.readMessages(m.key)
+console.log(`Berhasil read story ${m.name}`)
 }
 if (set.opts['autoread'])
-await this.chatRead(m.chat, m.isGroup ? m.sender : undefined, m.id || m.key.id).catch(() => { })
+
 }
 }
 

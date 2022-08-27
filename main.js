@@ -93,7 +93,7 @@ conn.isInit = false
 if (!set.opts['test']) {
     setInterval(async () => {
         if (global.db.data) await global.db.write().catch(console.error)
-        if (set.opts['tmp']) try {
+        if (!set.opts['tmp']) try {
             clearTmp()
 
         } catch (e) {

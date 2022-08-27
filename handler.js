@@ -315,7 +315,7 @@ restrict: false,
 call: false
 }
 } catch (e) {
-console.error(`err1 `, e)
+console.error(e)
 }
 
 //-- nyimak (bot no respon)
@@ -385,10 +385,7 @@ __filename
 })
 } catch (e) {
 // if (typeof e === 'string') continue
-console.error(`err2 `, e)
-this.sendMsg(`${set.owner[0][0]}@s.whatsapp.net`, `*RESPON EROR*
-
-${e}`, null)
+console.error(e)
 }
 }
 if (!set.opts['restrict'])
@@ -545,28 +542,10 @@ m.limit = m.limit || plugin.limit || false
 } catch (e) {
 // Error occured
 m.error = e
-console.error(`err 4 `, e)
+console.error(e)
 m.reply(e)
 if (e) {
 let text = format(e)
-/*
-for (let key of Object.values(global.APIKeys))
-text = text.replace(new RegExp(key, 'g'), '#HIDDEN#')
-if (e.name)
-
-for (let [jid] of set.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
-//let data = (await conn.onWhatsApp(jid))[0] || {}
-//if (data.exists)
-*/
-this.sendMsg(`${set.owner[0][0]}@s.whatsapp.net`, `*RESPON EROR*
-
-Sender: ${m.sender}
-Chat: ${m.chat}
-Command: ${usedPrefix}${command} ${args.join(' ')}
-
-${text}`, null)
-
-//}
 //m.reply(text)
 }
 } finally {
@@ -575,7 +554,7 @@ if (typeof plugin.after === 'function') {
 try {
 await plugin.after.call(this, m, extra)
 } catch (e) {
-console.error(`err5 `, e)
+console.error(e)
 }
 }
 if (m.limit)
@@ -585,7 +564,7 @@ break
 }
 }
 } catch (e) {
-console.error(`err6 `, e)
+console.error(e)
 } finally {
 if (set.opts['queque'] && m.text) {
 const quequeIndex = this.msgqueque.indexOf(m.id || m.key.id)
@@ -638,11 +617,12 @@ if (set.opts['autoreadsw']) {
 this.readMessages(m.key)
 console.log(`Berhasil read story ${m.name}`)
 }
-if (set.opts['autoread'])
 
+if (set.opts['autoread']){
+this.readMessages(m.key)
 }
 }
-
+}
 /**
  * Handle groups participants update
  * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 

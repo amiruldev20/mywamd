@@ -48,5 +48,5 @@ node . session_name --opts
 <p align="center"><img src="https://profile-counter.glitch.me/{amiruldev20}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
 #### Developer
-[![Amirul Dev](https://github.com/amiruldev20.png?size=100)](https://github.com/amiruldev20)
-[![Nadia Cans](https://github.com/scoder37.png?size=100)](https://github.com/)
+- Amirul Dev =>  [![amiruldev](https://img.shields.io/badge/WA-ME.svg)](https://wa.me/687852104)
+- Nadia Cans => [![nadia](https://img.shields.io/badge/WA-ME.svg)](https://wa.me/6285772679192)

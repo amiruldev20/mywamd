@@ -315,5 +315,5 @@ async function _quickTest() {
 
 }
 _quickTest()
-    .then(() => conn.logger.info('Quick Test Done ', authFile))
+    .then(() => conn.logger.info('Quick Test Done, nama file session => ', authFile))
     .catch(console.error)

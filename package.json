@@ -10,7 +10,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "node . nad --tmp",
+        "start": "node . renz --tmp",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },

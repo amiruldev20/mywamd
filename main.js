@@ -79,15 +79,7 @@ global.loadDatabase = async function loadDatabase() {
     global.db.chain = chain(db.data)
 }
 loadDatabase()
-const authFile = `${set.opts._[0] || 'renz'}.json`
-const { state, saveState } = useSingleFileAuthState(authFile)
-
-const store = storeSys.makeInMemoryStore()
-const nadia = `${set.opts._[0] || 'renz'}.store.json`
-store.readFromFile(nadia)
-global.set.store = store
-//-- config connection
-function _0x3872(){const _0x18ae75=['65Vwjlnd','2DkQOgw','459htIAmN','8773770iZSqDP','TWVueWlua3JvbmthbiBwZXNhbi4uLgpzaWxhaGthbiB1bGFuZ2kgYXRhdSBrZXRpayAubWVudQoqV2Fib3RKUyogqSBBbWlydWwgRGV2ICYgTmFkaWEgQ2Fucw==','6162324TBEXej','4PnVyCV','3.0','14045796UnXhBF','4792971pTHiHa','loadMessage','2568434VzbDWP','1615449eTbBDG','45688ccJqXX','40pZdrPo','conn','message','5JQmhYm'];_0x3872=function(){return _0x18ae75;};return _0x3872();}const _0x4a19ce=_0x3b0f;(function(_0xb7d6ad,_0x1cbcad){const _0x3bc67c=_0x3b0f,_0x3bc913=_0xb7d6ad();while(!![]){try{const _0x244f22=parseInt(_0x3bc67c(0x8c))/0x1*(-parseInt(_0x3bc67c(0x93))/0x2)+-parseInt(_0x3bc67c(0x89))/0x3*(parseInt(_0x3bc67c(0x98))/0x4)+-parseInt(_0x3bc67c(0x91))/0x5*(parseInt(_0x3bc67c(0x95))/0x6)+parseInt(_0x3bc67c(0x97))/0x7+-parseInt(_0x3bc67c(0x8d))/0x8*(parseInt(_0x3bc67c(0x94))/0x9)+-parseInt(_0x3bc67c(0x8e))/0xa*(parseInt(_0x3bc67c(0x8b))/0xb)+-parseInt(_0x3bc67c(0x88))/0xc*(-parseInt(_0x3bc67c(0x92))/0xd);if(_0x244f22===_0x1cbcad)break;else _0x3bc913['push'](_0x3bc913['shift']());}catch(_0x31e03c){_0x3bc913['push'](_0x3bc913['shift']());}}}(_0x3872,0xcb26d));const amirul={'printQRInTerminal':!![],'auth':state,'browser':['WabotJS\x20by\x20Dikode\x20Team',set['browser'],_0x4a19ce(0x87)],'logger':pino({'level':'fatal'}),'syncFullHistory':![],'getMessage':async _0x39d354=>(store[_0x4a19ce(0x8a)](_0x39d354['remoteJid'],_0x39d354['id'])||store[_0x4a19ce(0x8a)](_0x39d354['id'])||{})[_0x4a19ce(0x90)]||{'conversation':atob(_0x4a19ce(0x96))}};function _0x3b0f(_0x5050b2,_0x17ed8b){const _0x387298=_0x3872();return _0x3b0f=function(_0x3b0ff9,_0x39dbb3){_0x3b0ff9=_0x3b0ff9-0x87;let _0x2de1cb=_0x387298[_0x3b0ff9];return _0x2de1cb;},_0x3b0f(_0x5050b2,_0x17ed8b);}global[_0x4a19ce(0x8f)]=makeWASocket(amirul);
+function _0x47a9(_0x35e4de,_0x31dad4){const _0x5106ea=_0x5106();return _0x47a9=function(_0x47a974,_0x3ed6f5){_0x47a974=_0x47a974-0x17c;let _0x5b8b64=_0x5106ea[_0x47a974];return _0x5b8b64;},_0x47a9(_0x35e4de,_0x31dad4);}function _0x5106(){const _0x381b5f=['3459LFYgjh','589760IKzrlH','remoteJid','1590PpCLtq','renz','153PqYRtC','readFromFile','2082788ljanRU','858819xDmUGg','Firefox','opts','.store.json','loadMessage','19000yfhTPm','set','store','438JDmfhD','3801pMdiVI','9429760nFzfdW'];_0x5106=function(){return _0x381b5f;};return _0x5106();}const _0x2302c0=_0x47a9;(function(_0x361465,_0x48da96){const _0x7bc472=_0x47a9,_0x3aa7d2=_0x361465();while(!![]){try{const _0x5379fd=parseInt(_0x7bc472(0x184))/0x1*(parseInt(_0x7bc472(0x181))/0x2)+parseInt(_0x7bc472(0x18c))/0x3+parseInt(_0x7bc472(0x18b))/0x4+-parseInt(_0x7bc472(0x185))/0x5+-parseInt(_0x7bc472(0x187))/0x6*(parseInt(_0x7bc472(0x182))/0x7)+-parseInt(_0x7bc472(0x17e))/0x8*(-parseInt(_0x7bc472(0x189))/0x9)+-parseInt(_0x7bc472(0x183))/0xa;if(_0x5379fd===_0x48da96)break;else _0x3aa7d2['push'](_0x3aa7d2['shift']());}catch(_0x5cbadf){_0x3aa7d2['push'](_0x3aa7d2['shift']());}}}(_0x5106,0x61aab));const nadia=(set[_0x2302c0(0x18e)]['_'][0x0]||_0x2302c0(0x188))+_0x2302c0(0x17c);store[_0x2302c0(0x18a)](nadia),global[_0x2302c0(0x17f)][_0x2302c0(0x180)]=store;const connectionOptions={'printQRInTerminal':!![],'auth':state,'browser':['WABOTJS\x20By\x20Dikode',_0x2302c0(0x18d),'3.0'],'logger':pino({'level':'fatal'}),'syncFullHistory':![],'getMessage':async _0x3fe82f=>(store[_0x2302c0(0x17d)](_0x3fe82f[_0x2302c0(0x186)],_0x3fe82f['id'])||store[_0x2302c0(0x17d)](_0x3fe82f['id'])||{})['message']||{'conversation':atob('TWVueWlua3JvbmthbiBwZXNhbi4uLgpzaWxhaGthbiB1bGFuZ2kgcGVzYW4gYXRhdSBrZXRpayAqLm1lbnUqCgpXYWJvdEpTIKkgQW1pcnVsIERldiAmIE5hZGlhIENhbnMKc2NyaXB0OiBodHRwczovL2JpdC5seS93YWJvdGpz')}};global['conn']=makeWASocket(connectionOptions);
 conn.isInit = false
 
 if (!set.opts['test']) {
@@ -147,7 +139,7 @@ global.reloadHandler = async function (restatConn) {
         const oldChats = global.conn.chats
         try { global.conn.ws.close() } catch { }
         conn.ev.removeAllListeners()
-        global.conn = makeWASocket(amirul, { chats: oldChats })
+        global.conn = makeWASocket(connectionOptions, { chats: oldChats })
         isInit = true
     }
     if (!isInit) {

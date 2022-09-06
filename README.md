@@ -47,6 +47,9 @@ node . session_name --opts
 
 <p align="center"><img src="https://profile-counter.glitch.me/{amiruldev20}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
-#### Developer
-- Amirul Dev =>  [![amiruldev](https://img.shields.io/badge/WA-ME.svg)](https://wa.me/687852104)
-- Nadia Cans => [![nadia](https://img.shields.io/badge/WA-ME.svg)](https://wa.me/6285772679192)
+---------
+
+<a href="https://github.com/BochilGaming"><img src="https://github.com/BochilGaming.png?size=100" width="100" height="100"></a> | [![Amirul Dev](https://github.com/amiruldev20.png?size=100)](https://github.com/amiruldev20) | [![Nadia Dev](https://github.com/nadiadev7.png?size=100)](https://github.com/nadiadev7)
+----|----|----
+[Bochil Gaming](https://github.com) | [Amirul Dev](https://github.com/amiruldev20) | [Nadia Dev](https://github.com/nadiadev7)
+Creator Base Original | Developer | Most Active Contributor

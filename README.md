@@ -41,6 +41,7 @@ node . session_name --opts
 ```
 
 **LIST OPTS:**
+
 --clearses
 to delete sessions automatically every 5 minutes
 

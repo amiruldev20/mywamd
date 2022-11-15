@@ -1,6 +1,6 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-## ➤ WABOT JS (ESM)
+## ➤ MyWA BOT (ESM)
 
 this is the base of games-wabot which was redeveloped and fixed bugs that have not been fixed
 
@@ -19,8 +19,8 @@ This script can be installed on termux, vps, rdp, or other deploy platforms
 **follow the command below**
 
 ```
-git clone https://github.com/amiruldev20/wabotjs
-cd wabotjs
+git clone https://github.com/amiruldev20/mywamd
+cd mywamd
 bash run.sh
 ```
 
@@ -29,16 +29,23 @@ bash run.sh
 **follow the command below**
 
 ```
-git clone https://github.com/amiruldev20/wabotjs
-cd wabotjs
+git clone https://github.com/amiruldev20/mywamd
+cd mywamd
 bash start.sh
 ```
 
 **CUSTOM COMMAND:**
 ```
-cd wabotjs
+cd mywamd
 node . session_name --opts
 ```
+
+**LIST OPTS:**
+--clearses
+to delete sessions automatically every 5 minutes
+
+--cleartmp
+to delete tmp automatically every 5 minutes
 
 **NOTE :** 
 

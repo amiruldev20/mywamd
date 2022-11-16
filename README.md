@@ -1,6 +1,6 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-## ➤ MyWA BOT (ESM)
+## ➤ MyWA BOT (COMINGSOON)
 
 this is the base of games-wabot which was redeveloped and fixed bugs that have not been fixed
 
